@@ -1,5 +1,7 @@
+import Provider from './Global/Provider';
+
 function App() {
-  return <div className='App'></div>;
+  return <Provider></Provider>;
 }
 
 export default App;
