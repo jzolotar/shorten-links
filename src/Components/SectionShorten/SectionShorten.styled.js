@@ -5,11 +5,11 @@ export const StyledSectionShorten = styled.section`
 
   margin-top: 5rem;
   position: relative;
+  padding: 5rem 0;
 `;
 
 export const Container = styled.div`
   padding: 0 1rem;
-
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
