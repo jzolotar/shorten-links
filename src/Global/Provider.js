@@ -24,9 +24,10 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #efefef;
   font-size: 0.95rem;
   line-height: 1.5;
-  min-height: 100vh;
+
 }
 
 h1,
@@ -45,6 +46,8 @@ a {
 ol, ul {
   list-style: none;
 }
+
+
 
 p {
   margin: 0;
