@@ -31,7 +31,7 @@ export const StyledButton = styled(motion.button)`
   div {
     width: 2rem;
     height: 0.25rem;
-    background: #333;
+    background: ${({ theme }) => theme.colors.gray};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;

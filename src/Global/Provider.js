@@ -24,7 +24,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #efefef;
+ 
   font-size: 0.95rem;
   line-height: 1.5;
 

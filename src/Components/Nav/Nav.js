@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { StyledNav } from './Nav.styled';
 import NavMobile from './NavMobile/NavMobile';
 import NavDesktop from './NavDesktop/NavDesktop';
@@ -10,7 +9,7 @@ const Nav = () => {
       queries={{
         small: '(max-width: 52rem)',
 
-        large: '(min-width: 1200px)',
+        large: '(min-width: 75rem)',
       }}
     >
       {(matches) => (

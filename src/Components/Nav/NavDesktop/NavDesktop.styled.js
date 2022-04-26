@@ -3,12 +3,13 @@ import styled from 'styled-components';
 export const HeaderContainer = styled.div`
   position: relative;
   width: 100%;
-  max-width: 75rem;
+  max-width: 87.5rem;
   padding: 0.5rem 1rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
+  margin: 0 auto;
 `;
 
 export const ListItems = styled.ul`
