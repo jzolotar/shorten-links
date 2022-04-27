@@ -17,9 +17,12 @@ export const SectionItems = styled.section`
   display: flex;
   flex-direction: column;
   gap: 5rem;
+  width: 100%;
+  max-width: 1400px;
 
   @media (min-width: 52rem) {
     flex-direction: row;
-    gap: 1.1rem;
+    justify-content: space-between;
+    gap: 2.5rem;
   }
 `;

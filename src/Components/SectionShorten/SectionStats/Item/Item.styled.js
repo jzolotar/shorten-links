@@ -9,7 +9,7 @@ export const StyledItem = styled.article`
 
   @media (min-width: 52rem) {
     padding: 2rem 1rem;
-    padding-right: 5rem;
+    max-width: 420px;
   }
 
   div {
