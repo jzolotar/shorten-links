@@ -1,3 +1,4 @@
+import Footer from './Components/Footer/Footer';
 import Hero from './Components/Hero/Hero';
 import Nav from './Components/Nav/Nav';
 import SectionBoost from './Components/SectionBoost/SectionBoost';
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <SectionShorten />
       <SectionBoost />
+      <Footer />
     </Provider>
   );
 }
