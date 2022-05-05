@@ -5,4 +5,8 @@ export const StyledSocials = styled.div`
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
+
+  img {
+    cursor: pointer;
+  }
 `;
