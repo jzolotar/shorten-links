@@ -4,9 +4,9 @@ const Features = () => {
   return (
     <StyledFeatures>
       <h3>Features</h3>
-      <a href='#'>Test</a>
-      <a href='#'>Test</a>
-      <a href='#'>Test</a>
+      <a href='#'>Link Shortening</a>
+      <a href='#'>Branded Links</a>
+      <a href='#'>Analytics</a>
     </StyledFeatures>
   );
 };

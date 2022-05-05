@@ -9,6 +9,9 @@ export const StyledResources = styled.article`
   text-align: center;
 
   a {
-    color: #f4f4f4;
+    color: #9e9aa7;
+    &:hover {
+      color: ${({ theme }) => theme.colors.cyan};
+    }
   }
 `;

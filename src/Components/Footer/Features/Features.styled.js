@@ -8,6 +8,9 @@ export const StyledFeatures = styled.article`
   gap: 1rem;
 
   a {
-    color: #f4f4f4;
+    color: #9e9aa7;
+    &:hover {
+      color: ${({ theme }) => theme.colors.cyan};
+    }
   }
 `;
