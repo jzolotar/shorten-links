@@ -21,6 +21,7 @@ export const StyledShortLinks = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    position: relative;
 
     @media (min-width: 52rem) {
       display: grid;
@@ -31,10 +32,20 @@ export const StyledShortLinks = styled.div`
   input {
     width: 100%;
     padding: 0.65rem;
-    border: none;
+
+    border: 3px solid transparent;
     border-radius: 5px;
     margin-left: 0;
     font-size: 0.9rem;
+    font-size: 1rem;
+
+    &.alert {
+      border: 3px solid #f46262;
+      color: red;
+      ::placeholder {
+        color: #f46262;
+      }
+    }
   }
 
   button {
@@ -44,6 +55,19 @@ export const StyledShortLinks = styled.div`
     border-radius: 5px;
     background-color: ${({ theme }) => theme.colors.cyan};
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 1rem;
+  }
+
+  p {
+    position: absolute;
+    font-size: 0.8rem;
+    color: #f46262;
+    top: -25px;
+    left: 2.5px;
+
+    @media (min-width: 52rem) {
+      top: 50px;
+      left: 12.6px;
+    }
   }
 `;

@@ -10,6 +10,10 @@ export const HeaderContainer = styled.div`
   align-items: center;
   gap: 1rem;
   margin: 0 auto;
+
+  h1 {
+    margin-right: 2rem;
+  }
 `;
 
 export const ListItems = styled.ul`
