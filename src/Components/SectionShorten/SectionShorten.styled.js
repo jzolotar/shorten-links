@@ -9,8 +9,7 @@ export const StyledSectionShorten = styled.section`
 `;
 
 export const Container = styled.div`
-  padding: 0 1rem;
-  width: 100%;
+  width: 90%;
   max-width: 1400px;
   margin: 0 auto;
 `;
