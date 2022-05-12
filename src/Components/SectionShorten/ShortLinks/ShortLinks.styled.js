@@ -13,6 +13,10 @@ export const StyledShortLinks = styled.div`
   left: 50%;
   transform: translateX(-50%);
 
+  &:last-child {
+    margin-top: 5rem;
+  }
+
   @media (min-width: 52rem) {
     top: -50px;
   }

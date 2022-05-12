@@ -21,4 +21,7 @@ export const InnerContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  @media (min-width: 52.5rem) {
+    padding-top: 0;
+  }
 `;

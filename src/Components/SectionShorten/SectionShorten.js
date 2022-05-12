@@ -7,11 +7,7 @@ import {
 } from './SectionShorten.styled';
 import SectionStast from './SectionStats/SectionStats';
 import ShortLinks from './ShortLinks/ShortLinks';
-import { data } from './SectionStats/Item/data';
 import Link from './Link/Link';
-
-const url =
-  'https://api.shrtco.de/v2/shorten?url=https://github.com/rtkleong10/frontend-mentor-shortly/blob/master/styles/3-layout/_footer.scss';
 
 const SectionShorten = () => {
   const [linkInput, setLinkInput] = useState('');
