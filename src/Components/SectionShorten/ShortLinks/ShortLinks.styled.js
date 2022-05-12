@@ -56,6 +56,9 @@ export const StyledShortLinks = styled.div`
     background-color: ${({ theme }) => theme.colors.cyan};
     color: #fff;
     font-size: 1rem;
+    &:hover {
+      background-color: hsl(180, 57%, 73%);
+    }
   }
 
   p {

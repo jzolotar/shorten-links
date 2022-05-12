@@ -31,4 +31,7 @@ export const BoostBtn = styled.button`
   background-color: ${({ theme }) => theme.colors.cyan};
   font-size: 1.2rem;
   color: #fff;
+  &:hover {
+    background-color: hsl(180, 57%, 73%);
+  }
 `;

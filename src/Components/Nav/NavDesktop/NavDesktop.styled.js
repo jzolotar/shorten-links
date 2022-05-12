@@ -23,7 +23,6 @@ export const ListItems = styled.ul`
   li {
     text-transform: capitalize;
     font-weight: 700;
-    color: ${({ theme }) => theme.colors.gray};
     font-size: 1rem;
   }
 `;
@@ -44,6 +43,10 @@ export const SignUpBtn = styled.button`
   background: ${({ theme }) => theme.colors.cyan};
   font-size: 1rem;
   cursor: pointer;
+
+  &:hover {
+    background-color: hsl(180, 57%, 73%);
+  }
 `;
 
 export const Link = styled.a`
@@ -52,4 +55,7 @@ export const Link = styled.a`
   font-weight: 700;
   text-transform: capitalize;
   cursor: pointer;
+  &:hover {
+    color: #35323e;
+  }
 `;
